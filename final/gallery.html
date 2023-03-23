@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 1 - Welcome</title>
+    <meta charset="utf-8">
+    <meta name="description"
+    content="Project 06">
+    <meta name="keywords" content="welcome, Layout, CSS, HTML, project, MATC, Web Design, development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="gallery.css" rel="stylesheet">
+    <link href="images/logo.png" rel="icon" type="image/png"> 
+</head>
+    <body>
+        <main>
+        <div class="header">
+            <img src="images/MKE%20Detailing%20logo.jpg" alt="MKE Detailing Bros logo">
+
+            <h1>MKE Detailing Bro's</h1>
+                    <div class="topnav">
+                        <a href="index.html">HOME  </a>
+                        <a href="information.html">INFORMATION  </a>
+                        <a href="inquiries.html">INQUIRY  </a>
+                        <a href="gallery.html">GALLERY  </a>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+        </div> 
+            <style>
+                body {
+                  background-image: url('images/car-detailing-banner-background-image.jpg');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: 100% 100%;
+                }
+            </style>
+            <fieldset>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"> 1 / 18</div>
+                    <img src="images/IMG_1308.jpg" alt="Tesla image" width="600" height="600">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"> 2 / 18</div>
+                    <img src="images/IMG_1304.jpg" alt="Tesla image" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"> 3 / 18</div>
+                    <img src="images/IMG_1295.jpg" alt="Tesla interior" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"> 4 / 18</div>
+                    <img src="images/IMG_1309.jpg" alt="Tesla image" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"> 5 / 18</div>
+                    <img src="images/IMG_1510.jpg" alt="Hyundai Exterior" style="width:100%">
+                </div> 
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 6 / 16</div>
+                    <img src="images/IMG_9220.jpg" alt="hyundai interior" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 7 / 16</div>
+                    <img src="images/IMG_9221.jpg" alt="hyundai interior 2" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 8 / 16</div>
+                    <img src="images/IMG_9231.jpg" alt="Tesla image" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 9 / 16</div>
+                    <img src="images/IMG_9233.jpg" alt="Tesla interior 2" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 10 / 16</div>
+                    <img src="images/IMG_1412.jpg" alt="Tesla image" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 11 / 16</div>
+                    <img src="images/IMG_9232.jpg" alt="Tesla image" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 12 / 16</div>
+                    <img src="images/IMG_9229.jpg" alt="Boat image" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 13 / 16</div>
+                    <img src="images/IMG_9227.jpg" alt="Boat driver seat" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 14 / 16</div>
+                    <img src="images/IMG_9226.jpg" alt="Boat 2" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 15 / 16</div>
+                    <img src="images/IMG_9224.jpg" alt="Boat 4" style="width:100%">
+                </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext"> 16 / 16</div>
+                    <img src="images/IMG_9223.jpg" alt="Boat 5" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                 <span class="dot" onclick="currentSlide(2)"></span>
+                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span>
+                <span class="dot" onclick="currentSlide(14)"></span>
+                <span class="dot" onclick="currentSlide(15)"></span>
+                <span class="dot" onclick="currentSlide(16)"></span>
+                <span class="dot" onclick="currentSlide(17)"></span>
+                <span class="dot" onclick="currentSlide(18)"></span>
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+            </fieldset>
+        <footer>
+            <p>Copyright&copy; 2022</p>
+        </footer>
+        
+    </body>
+</html>

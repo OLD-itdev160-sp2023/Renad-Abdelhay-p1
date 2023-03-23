@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 1 - Welcome</title>
+    <meta charset="utf-8">
+    <meta name="description"
+    content="Final">
+    <meta name="keywords" content="welcome, Layout, CSS, HTML, project, MATC, Web Design, development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="inquiries.css" rel="stylesheet">
+    <link href="images/logo.png" rel="icon" type="image/png"> 
+</head>
+    <body>
+        <style>
+            body {
+              background-image: url('images/car-detailing-banner-background-image.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+        </style>
+        <main>
+        <div class="header">
+            <img src="images/MKE%20Detailing%20logo.jpg" alt="MKE Detailing Bros logo">
+
+            <h1>MKE Detailing Bro's</h1>
+                    <div class="topnav">
+                        <a href="index.html">HOME  </a>
+                        <a href="information.html">INFORMATION  </a>
+                        <a href="inquiries.html">INQUIRY  </a>
+                        <a href="gallery.html">GALLERY  </a>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </div>          
+
+                <fieldset class="inquiry">
+                    <p>To inquire with MKE Detailing bros please fill out the form below and 
+                        we will get back to you within 1-2 business days.</p>
+                    <p>If we have not responded please do not hesitate to give us a call!</p>
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                        
+                        <label for =lname>Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        
+                        <label for="typeofcar">What kind of car do you have?</label>
+                        <input type="text" id="kindofcar" name="carType" placeholder="Car make and model...">
+                        
+                        <label for="city">Where are you located?</label>
+                        <input type="text" id="location" name="locationcity" placeholder="I'm located in...">
+                        
+                        <label for="typeofdetail">What type of detail do you want?</label>
+                        <select id="typeofdetail" name="detailchoice">
+                            <option value="basicdetail">Basic Detail</option>
+                            <option value="fulldetail">Deluxe Detail</option>
+                            <option value="ultimateplus">Ultimate Plus</option>
+                            <option value="elite">Elite</option>
+                        </select>
+                        
+                        <label for="addons">Do you want any add ons?</label>
+                        <label class="container">None
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Buffing
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Waxing
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Headlight Restoration
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Window Cleaning
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Ceramic Coating
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Polish/Glaze
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Wheel/Rim Cleaning
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Tire Shine
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Shampoo Cleaning
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Leather Cleaning
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="submit" value="Submit">
+                    </form>
+                </fieldset>
+        </main>
+        <footer>
+            <p>Copyright&copy; 2022</p>
+        </footer>
+    </body>
+</html>

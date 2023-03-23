@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  text-align: left
+}
+h1{
+    font-size: 50px;
+}
+.header img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: #555;
+}
+fieldset{
+    background-color: rgba(56, 55, 55, 0.43);
+    border-radius: 5%;
+    min-width: 50%;
+    margin: 1rem;
+    border-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 100%;
+    max-width: 1000%;
+    min-width: 25%;
+    font-size: 25px;
+    color: white;
+    text-align: center; 
+}
+.column{
+    width: 31%;
+    background-color: rgba(56, 55, 55, 0.9);
+    border-radius: 5%;
+    min-width: 25%;
+    margin: 0.5em;
+    border-color: black;
+    height: 600px;
+    font-size: 20px;
+    float:left;
+    position: 
+}
+
+article{
+    min-width: 25%;
+    background-color: rgba(56, 55, 55, 0.9);
+    margin: 1em;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+img{
+    height: 200px;
+    border-radius: 45%;
+}
+.topnav {
+  background-color: rgba(51, 51, 51, 0.39);
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+footer{
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+    background-color: rgba(56, 55, 55, 0.25);
+    border-radius: 5%;
+    min-width: 25%;
+    margin: 1em;
+    border-color: black;
+    text-align: left;
+    left: 0;  
+}
